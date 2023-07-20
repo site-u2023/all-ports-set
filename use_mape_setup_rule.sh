@@ -4,8 +4,8 @@
 IPv4_IPv4
 TUNDEV_TUNDEV
 PSID_PSID
-PREFIX=1024
-BLOCKS=63
+PREFIX_PREFIX
+BLOCKS_BLOCKS
 
 nft table ip mape_nat
 nft delete table ip mape_nat
