@@ -1,4 +1,4 @@
-# https://zenn.dev/wistnki
+# this script based  https://zenn.dev/wistnki
 #!/bin/sh
 IPv4_IPv4
 TUNDEV_TUNDEV
