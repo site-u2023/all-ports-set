@@ -1,4 +1,5 @@
 # this script based  https://zenn.dev/wistnki
+# do not use map version
 #!/bin/sh
 IPv4_IPv4
 TUNDEV_TUNDEV
