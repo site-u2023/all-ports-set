@@ -22,6 +22,6 @@ for r in `seq 1 $BLOCKS ` ; do
     port_r=$((port_l + 15))
 
     nft add chain ip mape_nat mape_ports$r
-    nft add rule ip mape_nat mape_ports$r meta l4proto { tcp, udp, icmp } counter snat to $IP4:$port_l-$port_r persistent
+    nft add rule ip mape_nat mape_ports$r meta l4proto { tcp, udp, icmp } counter snat to $IPv4:$port_l-$port_r persistent
     nft add element ip mape_nat chain_map { $mark : goto mape_ports$r }
 done
