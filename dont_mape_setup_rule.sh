@@ -19,5 +19,5 @@ for r in `seq 1 $BLOCKS ` ; do
     port_l=$(( r * PREFIX + PSID * 16 ))
     port_r=$((port_l + 15))
 
-    nft add rule ip mape_nat POSTROUTING oifname map-$TUNDEV meta l4proto { tcp, udp, icmp } counter mark $mark snat to $IP4:$port_l-$port_r persistent
+    nft add rule ip mape_nat POSTROUTING oifname map-$TUNDEV meta l4proto { tcp, udp, icmp } counter mark $mark snat to $IPv4:$port_l-$port_r persistent
 done
