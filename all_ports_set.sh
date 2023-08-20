@@ -847,10 +847,14 @@ IPV4=${octet[0]}.${octet[1]}.${octet[2]}.${octet[3]}
 PSID=$psid
 BR=$peeraddr
 
-echo IPV4 : ${NET_ADDR}
-echo TUNDEV : ${NET_L3D}
-echo PSID : ${PSID}
-
 sed -i -e "s/IPv4_IPv4/IPv4=${NET_ADDR}/g" /etc/mape_setup_rule.sh
 sed -i -e "s/TUNDEV_TUNDEV/TUNDEV=${NET_L3D}/g" /etc/mape_setup_rule.sh
 sed -i -e "s/PSID_PSID/PSID=${PSID}/g" /etc/mape_setup_rule.sh
+
+cp /lib/netifd/proto/map.sh.bak /lib/netifd/proto/map.sh
+sed -i -e "s/ip4prefixlen=32/ip4prefixlen=${option_ip4prefixlen}/g" /lib/netifd/proto/map.sh
+sed -i -e "s/mtu:-1280/mtu:-1460/g" /lib/netifd/proto/map.sh
+
+echo IPV4 : ${NET_ADDR}
+echo TUNDEV : ${NET_L3D}
+echo PSID : ${PSID}
