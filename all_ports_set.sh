@@ -855,6 +855,11 @@ cp /lib/netifd/proto/map.sh.bak /lib/netifd/proto/map.sh
 sed -i -e "s/ip4prefixlen=32/ip4prefixlen=${option_ip4prefixlen}/g" /lib/netifd/proto/map.sh
 sed -i -e "s/mtu:-1280/mtu:-1460/g" /lib/netifd/proto/map.sh
 
+sed -i "/exit 0/d" /etc/rc.local
+echo "/etc/mape_setup_rule.sh" >> /etc/rc.local 
+echo "exit 0" >> /etc/rc.local
+
 echo IPV4 : ${NET_ADDR}
 echo TUNDEV : ${NET_L3D}
 echo PSID : ${PSID}
+echo START UP : /etc/mape_setup_rule.sh
