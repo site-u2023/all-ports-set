@@ -1,5 +1,4 @@
 #! /bin/bash
-
 # OCN Virtual Connect version use MAP
 function _func1
 {
@@ -14,7 +13,6 @@ function _func1
   read -p "Press key to reboot."
   reboot
 }
-
 # OCN Virtual Connect Version without MAP
 function _func2
 {
@@ -29,7 +27,6 @@ function _func2
   read -p "Press key to reboot."
   reboot
 }
-
 # V6 Plus / IPv6 Option version use MAP 
 function _func3
 {
@@ -44,7 +41,6 @@ function _func3
   read -p "Press key to reboot."
   reboot
 }
-
 # V6 Plus / IPv6 Option Version without MAP 
 function _func4
 {
@@ -59,7 +55,6 @@ function _func4
   read -p "Press key to reboot."
   reboot
 }
-
 # OCN Virtual Connect
 function _funca
 while :
@@ -76,7 +71,6 @@ do
     "r" ) break ;;
   esac
 done
-
 # V6 Plus / IPv6 Option
 function _funcb
 while :
@@ -93,7 +87,6 @@ do
     "r" ) break ;;
   esac
 done
-
 # main
 while :
 do
