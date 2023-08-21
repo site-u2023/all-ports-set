@@ -30,7 +30,7 @@ function _func2
   reboot
 }
 
-# V6 plus / IPv6 option version use MAP 
+# V6 Plus / IPv6 Option version use MAP 
 function _func3
 {
   # mape setup rule
@@ -45,7 +45,7 @@ function _func3
   reboot
 }
 
-# V6 plus / IPv6 option Version without MAP 
+# V6 Plus / IPv6 Option Version without MAP 
 function _func4
 {
   # mape setup rule
@@ -65,7 +65,7 @@ function _func5
 while :
 do
   echo "------------------------------------------------------"
-  echo -e "\033[0;34m[1]: \033[0;39m"version use MAP.
+  echo -e "\033[0;34m[1]: \033[0;39m"Version use MAP.
   echo -e "\033[0;34m[2]: \033[0;39m"Version without MAP.
   echo -e "\033[0;31m[r]: \033[0;39m"GO BACK.
   echo "------------------------------------------------------"
@@ -77,12 +77,12 @@ do
   esac
 done
 
-# V6 plus / IPv6 option
+# V6 Plus / IPv6 Option
 function _func6
 while :
 do
   echo "------------------------------------------------------"
-  echo -e "\033[0;34m[1]: \033[0;39m"version use MAP.
+  echo -e "\033[0;34m[1]: \033[0;39m"Version use MAP.
   echo -e "\033[0;34m[2]: \033[0;39m"Version without MAP.
   echo -e "\033[0;31m[r]: \033[0;39m"GO BACK.
   echo "------------------------------------------------------"
@@ -99,7 +99,7 @@ while :
 do
   echo "------------------------------------------------------"
   echo -e "\033[0;34m[1]: \033[0;39m"OCN Virtual Connect.
-  echo -e "\033[0;34m[2]: \033[0;39m"V6 plus / IPv6 option.
+  echo -e "\033[0;34m[2]: \033[0;39m"V6 Plus / IPv6 Option.
   echo -e "\033[0;31m[q]: \033[0;39m"EXIT.
   echo "------------------------------------------------------"
   read -p "Please select a number.: " num
