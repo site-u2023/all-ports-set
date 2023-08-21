@@ -65,14 +65,14 @@ function _funca
 while :
 do
   echo "------------------------------------------------------"
-  echo -e "\033[0;34m[1]: \033[0;39m"Version use MAP.
-  echo -e "\033[0;34m[2]: \033[0;39m"Version without MAP.
+  echo -e "\033[0;34m[u]: \033[0;39m"Version use MAP.
+  echo -e "\033[0;34m[w]: \033[0;39m"Version without MAP.
   echo -e "\033[0;31m[r]: \033[0;39m"GO BACK.
   echo "------------------------------------------------------"
-  read -p "Please select a number.: " num
+  read -p "Please select a key.: " num
   case "${num}" in
-    "1" ) _func1 ;;
-    "2" ) _func2 ;;
+    "u" ) _func1 ;;
+    "w" ) _func2 ;;
     "r" ) break ;;
   esac
 done
@@ -82,14 +82,14 @@ function _funcb
 while :
 do
   echo "------------------------------------------------------"
-  echo -e "\033[0;34m[1]: \033[0;39m"Version use MAP.
-  echo -e "\033[0;34m[2]: \033[0;39m"Version without MAP.
+  echo -e "\033[0;34m[u]: \033[0;39m"Version use MAP.
+  echo -e "\033[0;34m[w]: \033[0;39m"Version without MAP.
   echo -e "\033[0;31m[r]: \033[0;39m"GO BACK.
   echo "------------------------------------------------------"
-  read -p "Please select a number.: " num
+  read -p "Please select a key.: " num
   case "${num}" in
-    "1" ) _func3 ;;
-    "2" ) _func4 ;;
+    "u" ) _func3 ;;
+    "w" ) _func4 ;;
     "r" ) break ;;
   esac
 done
@@ -98,14 +98,14 @@ done
 while :
 do
   echo "------------------------------------------------------"
-  echo -e "\033[0;34m[1]: \033[0;39m"OCN Virtual Connect.
-  echo -e "\033[0;34m[2]: \033[0;39m"V6 Plus / IPv6 Option.
+  echo -e "\033[0;34m[o]: \033[0;39m"OCN Virtual Connect.
+  echo -e "\033[0;34m[v]: \033[0;39m"V6 Plus / IPv6 Option.
   echo -e "\033[0;31m[q]: \033[0;39m"EXIT.
   echo "------------------------------------------------------"
-  read -p "Please select a number.: " num
+  read -p "Please select a key.: " num
   case "${num}" in
-    "1" ) _funca ;;
-    "2" ) _funcb ;;
+    "o" ) _funca ;;
+    "v" ) _funcb ;;
     "q" ) exit 0 ;;
   esac
 done
