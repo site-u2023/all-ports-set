@@ -851,7 +851,7 @@ sed -i -e "s/IPv4_IPv4/IPv4=${NET_ADDR}/g" /etc/mape_setup_rule.sh
 sed -i -e "s/TUNDEV_TUNDEV/TUNDEV=${NET_L3D}/g" /etc/mape_setup_rule.sh
 sed -i -e "s/PSID_PSID/PSID=${PSID}/g" /etc/mape_setup_rule.sh
 
-cp /lib/netifd/proto/map.sh /lib/netifd/proto/map.sh.bak
+cp /lib/netifd/proto/map.sh /lib/netifd/proto/map.sh.nichiban.bak
 sed -i "/ip4prefixlen=32/d" /lib/netifd/proto/map.sh
 sed -i -e "s/mtu:-1280/mtu:-1460/g" /lib/netifd/proto/map.sh
 
