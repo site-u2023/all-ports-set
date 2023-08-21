@@ -11,7 +11,7 @@ function _func1
   sed -i -e "s/BLOCKS_BLOCKS/BLOCKS=63/g" /etc/mape_setup_rule.sh
   # script run
   bash /etc/all_ports_set.sh
-  read -p "Restart. Please key."
+  read -p "Press key to reboot."
   reboot
 }
 
@@ -26,7 +26,7 @@ function _func2
   sed -i -e "s/BLOCKS_BLOCKS/BLOCKS=63/g" /etc/mape_setup_rule.sh
   # script run
   bash /etc/all_ports_set.sh
-  read -p "Restart. Please key."
+  read -p "Press key to reboot."
   reboot
 }
 
@@ -41,7 +41,7 @@ function _func3
   sed -i -e "s/BLOCKS_BLOCKS/BLOCKS=15/g" /etc/mape_setup_rule.sh
   # script run
   bash /etc/all_ports_set.sh
-  read -p "Restart. Please key."
+  read -p "Press key to reboot."
   reboot
 }
 
@@ -56,7 +56,7 @@ function _func4
   sed -i -e "s/BLOCKS_BLOCKS/BLOCKS=15/g" /etc/mape_setup_rule.sh
   # script run
   bash /etc/all_ports_set.sh
-  read -p "Restart. Please key."
+  read -p "Press key to reboot."
   reboot
 }
 
