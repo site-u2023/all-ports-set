@@ -859,8 +859,8 @@ sed -i "/exit 0/d" /etc/rc.local
 echo "/etc/mape_setup_rule.sh" >> /etc/rc.local 
 echo "exit 0" >> /etc/rc.local
 
-echo -e "\033[0;36m[IPV4]: \033[0;39m"${NET_ADDR}
-echo -e "\033[0;36m[TUNDEV]: \033[0;39m"${NET_L3D}
-echo -e "\033[0;36m[PSID]: \033[0;39m"${PSID}
-echo -e "\033[0;36m[START UP]: \033[0;33m"/etc/mape_setup_rule.sh
-
+echo -e "\033[0;36mIPV4: \033[0;39m"${NET_ADDR}
+echo -e "\033[0;36mTUNDEV: \033[0;39m"${NET_L3D}
+echo -e "\033[0;36mPSID: \033[0;39m"${PSID}
+echo -e "\033[0;36mSTART UP: \033[0;33m"/etc/mape_setup_rule.sh
+echo -e "\033[0;39m"
