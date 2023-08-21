@@ -61,7 +61,7 @@ function _func4
 }
 
 # OCN Virtual Connect
-function _func5
+function _funca
 while :
 do
   echo "------------------------------------------------------"
@@ -78,7 +78,7 @@ do
 done
 
 # V6 Plus / IPv6 Option
-function _func6
+function _funcb
 while :
 do
   echo "------------------------------------------------------"
@@ -104,8 +104,8 @@ do
   echo "------------------------------------------------------"
   read -p "Please select a number.: " num
   case "${num}" in
-    "1" ) _func5 ;;
-    "2" ) _func6 ;;
+    "1" ) _funca ;;
+    "2" ) _funcb ;;
     "q" ) exit 0 ;;
   esac
 done
