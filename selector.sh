@@ -60,9 +60,9 @@ function _func_OCN
 while :
 do
   echo -e "\033[1;32m OCN Virtual Connect. ------------------------------------------\033[0;39m"
-  echo -e "\033[1;32m[u]: \033[0;39m"Version use MAP.
-  echo -e "\033[1;34m[w]: \033[0;39m"Version without MAP.
-  echo -e "\033[1;31m[r]: \033[0;39m"Go Back.
+  echo -e "\033[1;32m [u]: \033[0;39m"Version use MAP.
+  echo -e "\033[1;34m [w]: \033[0;39m"Version without MAP.
+  echo -e "\033[1;31m [r]: \033[0;39m"Go Back.
   echo -e "\033[1;32m ---------------------------------------------------------------\033[0;39m"
   read -p " Please select a key.: " num
   case "${num}" in
@@ -76,9 +76,9 @@ function _func_V6
 while :
 do
   echo -e "\033[1;34m V6 Plus / IPv6 Option.-----------------------------------------\033[0;39m"
-  echo -e "\033[1;32m[u]: \033[0;39m"Version use MAP.
-  echo -e "\033[1;34m[w]: \033[0;39m"Version without MAP.
-  echo -e "\033[1;31m[r]: \033[0;39m"Go Back.
+  echo -e "\033[1;32m [u]: \033[0;39m"Version use MAP.
+  echo -e "\033[1;34m [w]: \033[0;39m"Version without MAP.
+  echo -e "\033[1;31m [r]: \033[0;39m"Go Back.
   echo -e "\033[1;34m ---------------------------------------------------------------\033[0;39m"
   read -p " Please select a key.: " num
   case "${num}" in
@@ -91,9 +91,9 @@ done
 while :
 do
   echo -e "\033[1;33m Script installation Version. ----------------------------------\033[0;39m"
-  echo -e "\033[1;32m[o]: \033[0;39m"OCN Virtual Connect.
-  echo -e "\033[1;34m[v]: \033[0;39m"V6 Plus / IPv6 Option.
-  echo -e "\033[1;31m[q]: \033[0;39m"Exit.
+  echo -e "\033[1;32m [o]: \033[0;39m"OCN Virtual Connect.
+  echo -e "\033[1;34m [v]: \033[0;39m"V6 Plus / IPv6 Option.
+  echo -e "\033[1;31m [q]: \033[0;39m"Exit.
   echo -e "\033[1;33m ---------------------------------------------------------------\033[0;39m"
   read -p " Please select a key.: " num
   case "${num}" in
