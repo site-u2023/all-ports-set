@@ -99,6 +99,6 @@ do
   case "${num}" in
     "o" ) _func_OCN ;;
     "v" ) _func_V6 ;;
-    "q" ) exit 0 ;;
+    "q" ) exit ;;
   esac
 done
