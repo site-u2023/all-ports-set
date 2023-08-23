@@ -64,7 +64,7 @@ do
   echo -e "\033[1;34m[w]: \033[0;39m"Version without MAP.
   echo -e "\033[1;31m[r]: \033[0;39m"Go Back.
   echo -e "\033[1;32m ---------------------------------------------------------------\033[0;39m"
-  read -p "Please select a key.: " num
+  read -p " Please select a key.: " num
   case "${num}" in
     "u" ) _func1 ;;
     "w" ) _func2 ;;
@@ -80,7 +80,7 @@ do
   echo -e "\033[1;34m[w]: \033[0;39m"Version without MAP.
   echo -e "\033[1;31m[r]: \033[0;39m"Go Back.
   echo -e "\033[1;34m ---------------------------------------------------------------\033[0;39m"
-  read -p "Please select a key.: " num
+  read -p " Please select a key.: " num
   case "${num}" in
     "u" ) _func3 ;;
     "w" ) _func4 ;;
@@ -95,7 +95,7 @@ do
   echo -e "\033[1;34m[v]: \033[0;39m"V6 Plus / IPv6 Option.
   echo -e "\033[1;31m[q]: \033[0;39m"Exit.
   echo -e "\033[1;33m ---------------------------------------------------------------\033[0;39m"
-  read -p "Please select a key.: " num
+  read -p " Please select a key.: " num
   case "${num}" in
     "o" ) _func_OCN ;;
     "v" ) _func_V6 ;;
